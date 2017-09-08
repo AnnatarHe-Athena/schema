@@ -1,5 +1,7 @@
+#import "./categories.graphql"
+#import "./fetchGirls.graphql"
 
-query InitFetch($from: Int!, $take: Int!, $offset: Int!) {
-    ...fetchCategories
+query initial($from: Int!, $take: Int!, $offset: Int!) {
     ...fetchGirls
+    ...fetchCategories
 }

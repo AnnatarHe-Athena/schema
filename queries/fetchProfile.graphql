@@ -1,0 +1,5 @@
+query FetchProfileQuery($id: Int!) {
+    users(id: $id) {
+        id, email, name, pwd, avatar, bio, token, collections
+    }
+}
