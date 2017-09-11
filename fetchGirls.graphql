@@ -1,6 +1,4 @@
 
-fragment fetchGirls on Query {
-  girls(from: $from, take: $take, offset: $offset) {
+fragment fetchGirls on girl {
     id, img, text
-  }
 }

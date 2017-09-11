@@ -1,5 +1,3 @@
-fragment fetchCategories on Query {
-  categories {
+fragment fetchCategories on category {
     id, name, src
-  }
 }

@@ -1,5 +1,0 @@
-mutation auth($email: String!, $password: String!) {
-    auth(email: $email, password: $password) {
-        result
-    }
-}

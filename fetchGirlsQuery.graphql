@@ -1,5 +1,7 @@
 #import "./fetchGirls.graphql"
 
 query fetchGirlsQuery($from: Int!, $take: Int!, $offset: Int!) {
-    ...fetchGirls
+    girls(from: $from, take: $take, offset: $offset) {
+        ...fetchGirls
+    }
 }

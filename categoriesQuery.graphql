@@ -1,5 +1,7 @@
 #import "./categories.graphql"
 
 query initial {
-    ...fetchCategories
+    categories {
+        ...fetchCategories
+    }
 }

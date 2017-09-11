@@ -1,0 +1,3 @@
+fragment profile on user {
+    id, email, name, pwd, avatar, bio, token, collections
+}

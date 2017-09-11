@@ -1,0 +1,5 @@
+# $from 是从哪个 id 开始，不是从哪个分类查找
+
+fragment FetchCollectionQuery on cell {
+   id, img, text
+}
