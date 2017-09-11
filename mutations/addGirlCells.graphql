@@ -1,0 +1,8 @@
+#import "../fetchGirls.graphql"
+
+
+mutation addGirlCells($cells: [CellInput]) {
+    addGirls(cells: $cells) {
+        ...fetchGirls
+    }
+}
