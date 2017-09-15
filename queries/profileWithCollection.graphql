@@ -1,9 +1,10 @@
-#import "../fragments/profile.graphql"
+#ddddddimport "../fragments/profile.graphql"
 #import "../fetchGirls.graphql"
 
 query FetchProfileWithCollections($id: Int!, $from: Int!, $size: Int!) {
     users(id: $id) {
-        ...profile
+        # ...profile
+        id, email, name, pwd, avatar, bio, token
     }
     collections(id: $id, from: $from, size: $size) {
         ...fetchGirls

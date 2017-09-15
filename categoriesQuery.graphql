@@ -1,6 +1,6 @@
 
 
-query initial {
+query initCategories {
     categories {
         id, name, src
     }
