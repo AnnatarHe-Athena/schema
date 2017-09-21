@@ -2,6 +2,6 @@
 
 query initCategories {
     categories {
-        id, name, src
+        id, name, src, count
     }
 }
