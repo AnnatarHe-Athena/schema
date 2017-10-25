@@ -1,0 +1,6 @@
+
+mutation addToCollection($cells: [Int]) {
+    addCollection(cells: $cells) {
+        isOk
+    }
+}
