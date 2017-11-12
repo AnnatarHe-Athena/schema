@@ -1,0 +1,5 @@
+mutation removeGirl($cells: [Int]) {
+    removeGirl(cells: $cells) {
+        isOk
+    }
+}
