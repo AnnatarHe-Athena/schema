@@ -1,5 +1,5 @@
-query info() {
-    info() {
+query info {
+    info {
       userCount, cellCount, fee, email, copyright
     }
 }

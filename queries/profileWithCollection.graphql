@@ -4,7 +4,7 @@
 query FetchProfileWithCollections($id: Int!, $from: Int!, $size: Int!) {
     users(id: $id) {
         # ...profile
-        id, email, name, pwd, avatar, bio, token
+        id, email, name, pwd, avatar, bio, token, role
     }
     collections(id: $id, from: $from, size: $size) {
         ...fetchGirls
