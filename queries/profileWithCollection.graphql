@@ -1,4 +1,4 @@
-#ddddddimport "../fragments/profile.graphql"
+#import "../fragments/profile.graphql"
 #import "../fetchGirls.graphql"
 
 query FetchProfileWithCollections($id: Int!, $from: Int!, $size: Int!) {
