@@ -3,8 +3,7 @@
 
 query FetchProfileWithCollections($id: Int!, $from: Int!, $size: Int!) {
     users(id: $id) {
-        # ...profile
-        id, email, name, pwd, avatar, bio, token, role
+        ...profile
     }
     collections(id: $id, from: $from, size: $size) {
         ...fetchGirls
