@@ -1,4 +1,4 @@
 
 fragment fetchGirls on girl {
-    id, img, text, permission, fromID, fromURL
+    id, img, content, text, permission, fromID, fromURL
 }
