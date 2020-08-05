@@ -1,7 +1,7 @@
 #import "../fragments/profile.graphql"
 #import "../fetchGirls.graphql"
 
-query FetchProfileWithCollections($id: Int!, $from: Int!, $size: Int!) {
+query FetchProfileWithCollections($id: ID!, $from: Int!, $size: Int!) {
     users(id: $id) {
         ...profile
     }

@@ -1,5 +1,5 @@
 
-mutation addToCollection($cells: [Int!]!) {
+mutation addToCollection($cells: [ID!]!) {
     addCollection(cells: $cells) {
         isOk
     }
