@@ -2,7 +2,7 @@
 #import "./fetchGirls.graphql"
 
 query initial($from: Int!, $take: Int!, $last: ID!) {
-    girls(from: $from, take: $take, last: $last) {
+    girls(from: $from, take: $take, last: $last, hideOnly: false) {
         ...fetchGirls
     }
     categories {

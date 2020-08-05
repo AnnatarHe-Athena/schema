@@ -1,3 +1,3 @@
-fragment profile on user {
+fragment profile on User {
   id, email, name, pwd, avatar, bio, token, role
 }

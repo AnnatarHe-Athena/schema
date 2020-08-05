@@ -1,3 +1,3 @@
-fragment fetchCategories on category {
+fragment fetchCategories on Category {
     id, name, src, count
 }
