@@ -1,5 +1,6 @@
-query auth($email: String!, $password: String!) {
-    auth(email: $email, password: $password) {
-        token, id
+query auth($email: String!, $password: String!, $device: Device!) {
+    auth(email: $email, password: $password, device: $device) {
+        token,
+        id
     }
 }
